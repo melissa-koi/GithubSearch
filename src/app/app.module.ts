@@ -8,12 +8,16 @@ import { SearchComponent } from './components/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UsersComponent } from './components/users/users.component';
+import { GithubProfileComponent } from './components/github-profile/github-profile.component';
+import { GithubReposComponent } from './components/github-repos/github-repos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    UsersComponent
+    UsersComponent,
+    GithubProfileComponent,
+    GithubReposComponent,
   ],
   imports: [
     BrowserModule,
