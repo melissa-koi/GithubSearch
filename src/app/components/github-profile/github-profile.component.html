@@ -1,0 +1,19 @@
+<div *ngIf="githubProfile">
+    <div class="card" >
+        <img class="card-img-top" [src]="githubProfile.avatar_url" alt="" height="300">
+        <div class="card-body">
+            <h3 class="card-title">{{githubProfile.name}}</h3>
+            <p class="card-text">{{githubProfile.bio}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Repositories: {{githubProfile.public_repos}}</li>
+            <li class="list-group-item">Followers: {{githubProfile.followers}}</li>
+        </ul>
+        <div class="card-body">
+            <a [href]="githubProfile.html_url" target="_blank" class="btn btn-success btn-sm">Profile</a>
+        </div>
+    </div>
+    
+</div>
+
+
