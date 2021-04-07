@@ -1,6 +1,6 @@
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, throwError } from 'rxjs';
+import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment'
 
 @Injectable({
@@ -20,18 +20,4 @@ export class SearchService {
     return this.http.get<any[]>(url)
   }
   
-
-  // public handleErrors(error:HttpErrorResponse) {
-  //   let errorMessage:string;
-  //   if(error.error instanceof ErrorEvent) {
-  //     //client side error
-  //     errorMessage = `MESSAGE : ${error.error.message}`;
-  //   }
-  //   //server side error
-  //   else{
-  //     errorMessage = `STATUS : ${error.status} MESSAGE : ${error.message}`
-  //   }
-  //   return throwError(errorMessage);
-  // }
-
 }
