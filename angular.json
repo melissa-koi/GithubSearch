@@ -125,8 +125,8 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/GithubSearch",
-            "netlifyToken": "Eejd_ryHGtUuqC-Hl3Ok4ksPWzdapbB_0QwS_1_G7E0",
-            "siteId": "bc58d673-5571-47f1-9846-f182e16cdcce"
+            "netlifyToken": "t9zRlnfV0bBbm1wf9vb9xMMR5ro-65_WlDKhp2vyUuY",
+            "siteId": "4526ab96-13fe-4505-8979-1b13f6797e0b"
           }
         }
       }
