@@ -7,7 +7,6 @@ import { SearchComponent } from './components/search/search.component';
 
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { UsersComponent } from './components/users/users.component';
 import { GithubProfileComponent } from './components/github-profile/github-profile.component';
 import { GithubReposComponent } from './components/github-repos/github-repos.component';
 
@@ -15,7 +14,6 @@ import { GithubReposComponent } from './components/github-repos/github-repos.com
   declarations: [
     AppComponent,
     SearchComponent,
-    UsersComponent,
     GithubProfileComponent,
     GithubReposComponent,
   ],
