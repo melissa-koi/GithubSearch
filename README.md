@@ -20,6 +20,6 @@ You will need:
 * Stable internet connection
 * A github account
 * Repository used to host the website
-## [Link]( https://melissa-koi.github.io/QuotesAngular/) to live webpage
+## [Link]( https://melissa-koi.github.io/GithubSearch/) to live webpage
 
 ## [License](https://github.com/melissa-koi/GithubSearch/blob/main/LICENSE)
