@@ -17,9 +17,14 @@ export class SearchComponent implements OnInit {
   }
 
   searchUser() {
-    this.searchService.getProfile(this.user).subscribe((data) => {this.githubProfile = data});
-    this.searchService.getRepos(this.user).subscribe((data) => {this.githubRepos = data}) 
+    if(this.user ===undefined || this.user == '') {
+      alert("Please enter a user name")
+    }else{
+      this.searchService.getProfile(this.user).subscribe((data) => {this.githubProfile = data});
+      this.searchService.getRepos(this.user).subscribe((data) => {this.githubRepos = data}) 
    }
+    }
+    
 }
 
   
